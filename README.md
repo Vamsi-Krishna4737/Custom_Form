@@ -23,6 +23,12 @@ This project is a Full Stack Form Builder application designed to create, manage
 - **Styling:** Tailwind CSS
 - **Utilities:** ESLint, Prettier, React Hook Form, Zod
 
+  ## Home Page
+
+
+![Screenshot (1)](https://github.com/user-attachments/assets/84878a20-3370-4212-b383-dc456b5feded)
+![Screenshot (2)](https://github.com/user-attachments/assets/ca490b51-bc55-4fd3-8f1e-ad8a7888b03a)
+
 ## Getting Started
 
 ### Prerequisites
@@ -133,11 +139,8 @@ CREATE TABLE "FormSubmissions" (
     CONSTRAINT fk_form FOREIGN KEY ("formId") REFERENCES "Form" ("id") ON DELETE CASCADE
 );
 
-## Website Images
+## Images
 
-
-![Screenshot (1)](https://github.com/user-attachments/assets/84878a20-3370-4212-b383-dc456b5feded)
-![Screenshot (2)](https://github.com/user-attachments/assets/ca490b51-bc55-4fd3-8f1e-ad8a7888b03a)
 ![Screenshot (3)](https://github.com/user-attachments/assets/14ae1ab4-1430-4b06-a3b3-bda2069c94ba)
 ![Screenshot (4)](https://github.com/user-attachments/assets/6cfe88b0-0843-4a24-9317-cb99175f3d04)
 ![Screenshot (5)](https://github.com/user-attachments/assets/cc1b9fb1-d650-4b56-80b4-8fdcf6a09efa)
@@ -153,4 +156,5 @@ CREATE TABLE "FormSubmissions" (
 
 
 
-This README provides a comprehensive guide to set up, run, and contribute to the Full Stack Form Builder project. It covers the essential aspects needed to understand and work with the project effectively.
+
+This README provides a comprehensive guide to set up, run, and contribute to the Custom_Form Project. It covers the essential aspects needed to understand and work with the project effectively.
