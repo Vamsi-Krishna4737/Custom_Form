@@ -115,7 +115,7 @@ This project is a Full Stack Form Builder application designed to create, manage
 
 ## Env Setup
 
-POSTGRES_PRISMA_URL=//Add your postgres database link (postgresql://@username:@password@localhost:5432/database_name)
+- ** POSTGRES_PRISMA_URL=//Add your postgres database link (postgresql://@username:@password@localhost:5432/database_name)
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=Db_name
