@@ -133,6 +133,9 @@ CREATE TABLE "FormSubmissions" (
     CONSTRAINT fk_form FOREIGN KEY ("formId") REFERENCES "Form" ("id") ON DELETE CASCADE
 );
 
+## Website Images
+
+![Screenshot (1)](https://github.com/user-attachments/assets/84878a20-3370-4212-b383-dc456b5feded)
 
 
 This README provides a comprehensive guide to set up, run, and contribute to the Full Stack Form Builder project. It covers the essential aspects needed to understand and work with the project effectively.
