@@ -35,8 +35,8 @@ This project is a Full Stack Form Builder application designed to create, manage
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/maesterfox/fs-form-builder.git
-   cd full-stack-form-builder
+   git clone https://github.com/Vamsi-Krishna4737/Custom_Form.git
+   cd Custom_Form
    ```
 
 2. **Install dependencies:**
