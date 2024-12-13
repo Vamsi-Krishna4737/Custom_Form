@@ -113,6 +113,19 @@ This project is a Full Stack Form Builder application designed to create, manage
 - **`prisma/schema.prisma`**: Prisma schema definition
 - **`next.config.js`**: Next.js configuration
 
+## Env Setup
+
+POSTGRES_PRISMA_URL=//Add your postgres database link (postgresql://@username:@password@localhost:5432/database_name)
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=Db_name
+DB_USER=@username
+DB_PASSWORD=@password
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= (open clerk.com and past your keys)
+CLERK_SECRET_KEY=(open clerk.com and past your keys)
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+
 ## Psql Commands
 
 -- Create the "Form" table
