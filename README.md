@@ -107,6 +107,32 @@ This project is a Full Stack Form Builder application designed to create, manage
 - **`prisma/schema.prisma`**: Prisma schema definition
 - **`next.config.js`**: Next.js configuration
 
+## Psql Commands
+
+-- Create the "Form" table
+CREATE TABLE "Form" (
+    "id" SERIAL PRIMARY KEY,
+    "userId" VARCHAR NOT NULL,
+    "createdAt" TIMESTAMP DEFAULT NOW() NOT NULL,
+    "published" BOOLEAN DEFAULT FALSE NOT NULL,
+    "name" VARCHAR NOT NULL,
+    "description" VARCHAR DEFAULT '' NOT NULL,
+    "content" VARCHAR DEFAULT '[]' NOT NULL,
+    "visits" INTEGER DEFAULT 0 NOT NULL,
+    "submissions" INTEGER DEFAULT 0 NOT NULL,
+    "shareURL" VARCHAR UNIQUE DEFAULT gen_random_uuid() NOT NULL,
+    CONSTRAINT unique_name_userId UNIQUE ("name", "userId")
+);
+
+-- Create the "FormSubmissions" table
+CREATE TABLE "FormSubmissions" (
+    "id" SERIAL PRIMARY KEY,
+    "createdAt" TIMESTAMP DEFAULT NOW() NOT NULL,
+    "formId" INTEGER NOT NULL,
+    "content" VARCHAR NOT NULL,
+    CONSTRAINT fk_form FOREIGN KEY ("formId") REFERENCES "Form" ("id") ON DELETE CASCADE
+);
+
 
 
 This README provides a comprehensive guide to set up, run, and contribute to the Full Stack Form Builder project. It covers the essential aspects needed to understand and work with the project effectively.
