@@ -157,4 +157,4 @@ CREATE TABLE "FormSubmissions" (
 
 
 
-This README provides a comprehensive guide to set up, run, and contribute to the Full Stack Form Builder project. It covers the essential aspects needed to understand and work with the project effectively.
+This README provides a comprehensive guide to set up, run, and contribute to the Custom_Form Project. It covers the essential aspects needed to understand and work with the project effectively.
