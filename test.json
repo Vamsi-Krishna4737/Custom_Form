@@ -1,0 +1,250 @@
+{
+    "education": {
+    "degree": "Bachelor of Science in Computer Science",
+    "university": "University of Portland",
+    "location": "Portland, Oregon, USA",
+    "graduation_year": 2011,
+    "program": {
+    "degree": "Bachelor of Science in Computer Science (B.S.C.S.)",
+    "accreditation": "Computing Accreditation Commission of ABET",
+    "description": "Software is at the core of many fields: science, medicine, education, business, and government. The program provides both breadth and depth in computer science, covering the entire software engineering process.",
+    "educational_objectives": [
+      "Prepare graduates for diverse career paths or graduate school",
+      "Enable graduates to solve complex problems",
+      "Equip graduates to be effective communicators and team leaders",
+      "Foster engagement with issues of justice, ethics, diversity, equity, and inclusion"
+    ],
+    "student_outcomes": [
+      "Analyze and solve complex computing problems",
+      "Design, implement, and evaluate computing-based solutions",
+      "Communicate effectively in professional settings",
+      "Apply ethical and legal standards in computing practices",
+      "Lead or collaborate effectively in team settings"
+    ],
+    "curriculum": {
+      "total_credits": 120,
+      "core_credits": 40,
+      "general_engineering_credits": 30,
+      "cs_specific_credits": 56
+    }
+  },
+      "yearly_breakdown": {
+        "year1": {
+    "description": "Focused on building fundamental programming and analytical skills through compulsory courses.",
+    "courses": [
+      {
+        "code": "CS08012",
+        "name": "CS 1 - Computation and Logic",
+        "credits": 10,
+        "description": "Introduces the notions of computation and specification using finite-state systems and propositional logic.",
+        "syllabus": "Finite-state systems as a basic model of computation: deterministic and non-deterministic automata; transducers; acceptors; structured design of finite state machines. Propositional logic: truth tables; natural deduction; resolution; elementary temporal logic."
+      },
+      {
+        "code": "CS08013",
+        "name": "CS 1 - Functional Programming",
+        "credits": 10,
+        "description": "Teaches functional programming using a modern functional language. Focuses on problem-solving approaches that require thinking in functions, involving recursion, higher-order functions, and types.",
+        "syllabus": "Introduction to functional programming concepts; recursion; immutability; function types and polymorphism; lambda calculus; data structures in functional programming."
+      },
+      {
+        "code": "CS08014",
+        "name": "CS 1 - Object-Oriented Programming",
+        "credits": 10,
+        "description": "Covers the fundamentals of object-oriented programming and design, focusing on encapsulation, inheritance, and polymorphism.",
+        "syllabus": "Classes and objects; encapsulation; inheritance and its implications for polymorphism; abstract classes; interfaces; exception handling; design patterns."
+      },
+      {
+        "code": "CS08015",
+        "name": "CS 1 - Data and Analysis",
+        "credits": 10,
+        "description": "Focuses on data organization, management, and analysis with an introduction to database concepts and the use of statistical methods to interpret data.",
+        "syllabus": "Data modeling; introduction to databases; SQL and database manipulation; basic statistics; data visualization; data interpretation and analysis techniques."
+      },
+      {
+        "code": "MATH08057",
+        "name": "Introduction to Linear Algebra",
+        "credits": 20,
+        "description": "Provides a foundation in linear algebra, covering vector spaces, linear mappings, matrices, and systems of linear equations.",
+        "syllabus": "Vector spaces; linear transformations; matrix algebra; determinants; eigenvalues and eigenvectors; systems of linear equations."
+      },
+      {
+        "code": "MATH08058",
+        "name": "Calculus and its Applications",
+        "credits": 20,
+        "description": "Introduces calculus concepts and their applications, focusing on differential and integral calculus.",
+        "syllabus": "Limits and continuity; differentiation; integration; applications of calculus to physics and engineering; multivariable calculus basics."
+      }
+    ]
+  },
+        "year2": {
+    "description": "Year 2 delves into the advanced theoretical and practical aspects of CS, focusing on software engineering, computer systems, and a deeper understanding of mathematical principles critical to computing.",
+    "courses": [
+      {
+        "code": "CS08008",
+        "name": "CS 2A - Processing Formal and Natural Languages",
+        "credits": 20,
+        "description": "This course examines both formal and natural languages, focusing on parsing techniques, grammar, automata, and the foundations of language processing.",
+        "syllabus": "Study of syntax and semantics of formal languages; introduction to natural language processing; parsing techniques; understanding grammar and automata; basics of language generation and processing."
+      },
+      {
+        "code": "CS08009",
+        "name": "CS 2B - Algorithms, Data Structures, Learning",
+        "credits": 20,
+        "description": "Focuses on algorithms and data structures essential for software development, complemented by an introduction to machine learning principles.",
+        "syllabus": "Coverage includes asymptotic notation, sequential and web-scale data structures, sorting techniques, graph algorithms, and basics of machine learning like statistical pattern recognition and neural networks."
+      },
+      {
+        "code": "MATH08042",
+        "name": "Mathematics for CS 3a",
+        "credits": 10,
+        "description": "Emphasizes discrete mathematics concepts crucial for computer science, such as logic, set theory, and probability.",
+        "syllabus": "Topics include propositional and predicate logic, set theory, functions, combinatorics, and foundational graph theory."
+      },
+      {
+        "code": "MATH08043",
+        "name": "Mathematics for CS 3b",
+        "credits": 10,
+        "description": "Continues the exploration of discrete mathematics, focusing on the computational complexity and advanced graph algorithms.",
+        "syllabus": "Detailed study of computational complexity, including the P vs NP problem, and advanced topics in graph theory and algorithmic complexity."
+      },
+      {
+        "code": "MATH08044",
+        "name": "Mathematics for CS 4a",
+        "credits": 10,
+        "description": "This course explores algebraic structures and their applications in areas like coding theory and cryptography.",
+        "syllabus": "In-depth examination of algebraic structures such as groups, rings, fields, and their applications in computing contexts."
+      },
+      {
+        "code": "MATH08045",
+        "name": "Mathematics for CS 4b",
+        "credits": 10,
+        "description": "Focuses on numerical methods and their computational implementations, critical for solving real-world computing problems.",
+        "syllabus": "Covers numerical stability, error analysis, numerical solutions to differential equations, and optimization techniques."
+      },
+      {
+        "code": "CS08018",
+        "name": "CS 2C - Introduction to Computer Systems",
+        "credits": 10,
+        "description": "Provides foundational knowledge of computer systems architecture, emphasizing the interplay between hardware and software.",
+        "syllabus": "Basic principles of computer architecture, operating systems, memory management, and hardware-software interaction."
+      },
+      {
+        "code": "CS08019",
+        "name": "CS 2C - Introduction to Software Engineering",
+        "credits": 10,
+        "description": "Introduces core software engineering methodologies, focusing on the software development lifecycle and agile practices.",
+        "syllabus": "Exploration of software development models, requirements analysis, system design, implementation strategies, testing, and maintenance within an agile framework."
+      }
+    ]
+  },
+        "year3": {
+    "description": "Chose electives to deepen knowledge in databases, software engineering, and networking, emphasizing practical applications and advanced theoretical understanding.",
+    "courses": [
+      {
+        "code": "CS09011",
+        "name": "Database Systems",
+        "description": "Explores the fundamental concepts, structures, and algorithms necessary to understand database systems and their applications.",
+        "syllabus": "Database design and conceptual modeling; SQL and query optimization; transaction management; concurrency control; recovery systems; introduction to NoSQL databases."
+      },
+      {
+        "code": "CS09016",
+        "name": "Software Engineering with Objects and Components",
+        "description": "Focuses on advanced software engineering techniques using object-oriented and component-based design methodologies.",
+        "syllabus": "Object-oriented analysis and design using UML; design patterns; component-based software engineering; software architecture; agile and SCRUM methodologies; software quality and testing strategies."
+      },
+      {
+        "code": "CS09027",
+        "name": "Computer Communications and Networks",
+        "description": "Provides a comprehensive overview of the principles, architectures, and protocols used in computer communications and networking.",
+        "syllabus": "OSI and TCP/IP models; LAN and WAN technologies; routing and switching basics; network security and management; wireless and mobile networking; performance analysis."
+      },
+      {
+        "code": "CS09006",
+        "name": "Algorithms and Data Structures",
+        "description": "The course aims to provide general techniques for the design of efficient algorithms and, in parallel, develop appropriate mathematical tools for analysing their performance.",
+        "syllabus": "Review of computational models; time and space complexity; divide and conquer strategies including Strassen's algorithm and FFT; sorting techniques like Quicksort; data structures for disjoint sets; dynamic programming examples like Matrix-chain multiplication; graph/network algorithms including Ford-Fulkerson; geometric algorithms such as the convex hull."
+      }
+    ]
+  },
+        "year4": {
+    "description": "Advanced elective courses focused on databases, distributed systems, human-computer interaction, and parallel programming to enhance understanding of scalable, full-stack applications.",
+    "courses": [
+      {
+        "code": "CS10002",
+        "name": "Querying and Storing XML",
+        "description": "Provides an in-depth exploration of XML data management, focusing on storing, querying, and managing XML documents effectively.",
+        "syllabus": "XML basics and standards; DTD and XML Schema; querying XML with XPath, XQL, XSLT; storing XML in relational databases; XML shredding, publishing, and security; querying and managing XML data with SQL and view maintenance."
+      },
+      {
+        "code": "CS10012",
+        "name": "Distributed Systems",
+        "description": "Covers the fundamental and advanced concepts of distributed computing systems, focusing on scalability and fault tolerance.",
+        "syllabus": "XML basics, DTD, XML Schema, XPath, XQL, XSLT; XML shredding—storing XML in relations; XML publishing; querying XML data stored in relations; managing XML data; XML security."
+      },
+      {
+        "code": "CS11088",
+        "name": "Extreme Computing",
+        "description": "Focuses on scalable computing techniques used in industry to handle Web-scale problems, covering CSastructure and algorithmic challenges.",
+        "syllabus": "Background on cloud and cluster computing; CSastructure including distributed file systems and virtualization; algorithms such as MapReduce, Hadoop; case studies in NLP, database query evaluation, and machine learning."
+      },
+      {
+        "code": "CS10018",
+        "name": "Human-Computer Interaction",
+        "description": "Explores principles and techniques for designing effective user interfaces, emphasizing user experience and interaction design.",
+        "syllabus": "Principles of HCI; usability engineering; design methodologies; user-centered design; evaluation techniques; interaction models; accessibility; emerging trends in interface design."
+      },
+      {
+        "code": "CS10015",
+        "name": "Parallel Programming Languages and Systems",
+        "description": "Examines the principles and practices of parallel programming, focusing on concurrency and multi-threaded programming techniques.",
+        "syllabus": "Introduction to parallelism and parallel programming models; threads and concurrency; synchronization mechanisms; memory models; parallel programming languages and environments; performance issues and optimizations."
+      }
+    ]
+  }
+  
+      }
+    },
+  
+  "university": {
+    "name": "University of Portland",
+    "type": "Private university",
+    "established": 1901,
+    "motto": "Veritas vos Liberabit (The truth will set you free)",
+    "affiliation": "Catholic (Congregation of Holy Cross)",
+    "president": "Robert D. Kelly",
+    "location": {
+      "address": "Portland, Oregon, U.S.",
+      "campus": "Residential, 124 acres"
+    },
+    "colors": ["Purple", "White"],
+    "nickname": "Pilots",
+    "mascot": "Wally Pilot",
+    "sporting_affiliations": "NCAA Division I – West Coast Conference",
+    "historical_info": {
+      "former_names": ["Columbia University (1901–1935)"],
+      "founding_story": "Founded by the Congregation of Holy Cross, initially opened as Columbia University. Renamed to University of Portland in 1935.",
+      "campus_description": "Located in the University Park neighborhood near St. Johns, on a bluff overlooking the Willamette River."
+    },
+    "academic_structure": [
+      {
+        "school": "College of Arts & Sciences",
+        "departments": ["Biology", "Chemistry", "Communication Studies", "English", "Environmental Studies", "International Languages & Cultures", "History", "Mathematics", "Performing & Fine Arts", "Philosophy", "Physics", "Political Science", "Psychology", "Social & Behavioral Sciences", "Social Work", "Sociology", "Theology"]
+      },
+      {
+        "school": "Pamplin School of Business Administration",
+        "programs": ["Economics", "Accounting", "Finance", "Marketing and Sustainability", "Operations and Technology Management"]
+      },
+      {
+        "school": "School of Education",
+        "focus": "Provides graduates with teaching licenses; notable for field experience emphasis and inclusion initiatives."
+      },
+      {
+        "school": "Shiley School of Engineering",
+        "programs": ["Mechanical Engineering", "Civil Engineering", "Electrical Engineering", "Computer Science"],
+        "notable": "Received significant donations from Donald and Darlene Shiley, enhancing facilities and programs."
+      }
+    ]
+  }
+}
+
+  
