@@ -139,7 +139,7 @@ CREATE TABLE "FormSubmissions" (
     CONSTRAINT fk_form FOREIGN KEY ("formId") REFERENCES "Form" ("id") ON DELETE CASCADE
 );
 
-##Images
+## Images
 
 ![Screenshot (3)](https://github.com/user-attachments/assets/14ae1ab4-1430-4b06-a3b3-bda2069c94ba)
 ![Screenshot (4)](https://github.com/user-attachments/assets/6cfe88b0-0843-4a24-9317-cb99175f3d04)
